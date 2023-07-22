@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #F5EBE0;
+}
+
 .navbar a{
     text-decoration: none;
     color: #000;
@@ -12,15 +16,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    height: 56px;
+    height: 30px;
     justify-content: center;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid black;
 }
 
 .navbar {
     width: 962px;
     height: 56px;
     position: absolute;
-    top: 45px;
+    top: 54px;
     left: 895px;
     display: flex;
     justify-content: space-between;
