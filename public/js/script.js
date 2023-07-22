@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentUrl = window.location.pathname;
-    let navbarLinks = document.querySelectorAll('div.navbar a.nav-link');
+    let navbarLinks = document.querySelectorAll('div.navbar a');
 
     navbarLinks.forEach(function (link) {
         let linkUrl = link.getAttribute('href');
